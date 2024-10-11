@@ -1,0 +1,45 @@
+{
+  "development": {
+    "username": "username",
+    "password": "password",
+    "database": "ott_middleware",
+    "host": "localhost",
+    "dialect": "mysql",
+    "define": {
+      "underscored": true
+    }
+  },
+  "beta": {
+    "username": "username",
+    "password": "password",
+    "database": "ott_middleware",
+    "host": "host",
+    "dialect": "mysql",
+    "define": {
+      "underscored": true
+    }
+  },
+  "prod": {
+    "username": "lco",
+    "password": "password",
+    "database": "ott_middleware",
+    "host": "hostname",
+    "dialect": "mysql",
+    "define": {
+      "underscored": true
+    }
+  },
+  "test": {
+    "username": "root",
+    "password": "root",
+    "database": "ottmiddleware",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "port":"8889",
+    "define": {
+      "underscored": true,
+      "timestamps": false,
+      "updatedAt": false
+    }
+  }
+}
